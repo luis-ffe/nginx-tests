@@ -1,0 +1,6 @@
+docker build -t webserv42 .
+
+docker run -p 8080:80 -p 8081:8081 -p 8082:8082 webserv42
+
+
+http://localhost:8081/
